@@ -1,0 +1,11 @@
+$viewport-max-width: 1920px;
+body {
+  .container-fluid {
+    max-width: $viewport-max-width;
+    width: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+  }
+  overflow-x: hidden;
+}
