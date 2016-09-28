@@ -1,6 +1,10 @@
+.header-placeholder {
+  min-height: 50px;
+}
 
 .feature {
-  padding: 0px !important;margin: 0px !important;
+  padding: 0px!important;
+  margin: 0px!important;
 }
 
 .img-wrapper {
@@ -11,7 +15,7 @@
   img {
     position: absolute;
     height: 100%;
-    outline: #fff solid 2px;
+    outline: 2px solid #fff;
   }
 }
 
@@ -29,4 +33,29 @@
 
 .img-wrapper.ratio4-1 {
   padding-bottom: 25%;
+}
+
+.img-wrapper.ratio4-2 {
+  padding-bottom: 50%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  .header-placeholder {
+    min-height: 50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+  .header-placeholder {
+    min-height: 205px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+  .header-placeholder {
+    min-height: 205px;
+  }
 }
